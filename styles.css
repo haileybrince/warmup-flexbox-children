@@ -1,0 +1,21 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-content{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(234, 196, 255);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.main-content{
+    background-color: beige;
+    flex: 1 0;
+}
